@@ -15,7 +15,7 @@ router
     .get(getAllUser)
     .post(createUser);
 
-router.route('/:userId/friends/').post(addFriend);
+router.route('/:userId/friends/').post(createFriend);
 
 router
     .route('/:id')
